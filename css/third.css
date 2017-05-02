@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	text-align: center;
+}
+
+.select1{
+	border-radius: 7px;
+	width: 150px;
+	height: 30px;
+	border-width: 2px;
+	border-style:solid;
+	border-color: #dbdbdb;
+}
+
+.select2{
+	border-radius: 7px;
+	width: 200px;
+	height: 30px;
+	border-width: 2px;
+	border-style:solid;
+	border-color: #dbdbdb;
+}
+
+.text{
+	border-radius: 7px;
+	width: 200px;
+	height: 30px;
+	border-width:2px;
+	border-style: solid;
+	border-color:#DBDBDB;
+}

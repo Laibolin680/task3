@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/third.css">
+<script src="../js/third.js"></script>
+<title>third</title>
+</head>
+
+<body onLoad="changeuni()">
+
+<div align="center">
+	<table border="0px">
+		<tr style="height: 100px;">
+			<td style="width: 400px; text-align: center">
+			    <form>
+			    	<input type="radio" style="text-align: left;" name="student" value="yes" onClick="std()">在校生
+			    	<input type="radio" style="text-align: right;" name="student" value="no" onClick="std()">非在校生
+				</form>
+			</td>
+		</tr>
+		<tr style="height: 100px; display: none; text-align: center;" id="dont0">
+			<td>
+				<form>学校&nbsp;
+				    <select name="cities" class="select1" id="city" onChange="changeuni()">
+				      <option value="beijing">北京</option>
+				      <option value="shanghai">上海</option>
+				      <option value="guangzhou">广州</option>
+			        </select>
+			      	<select name="univercities-1" class="select2" id="uni"></select>
+				</form>
+			</td>
+		</tr>
+		
+		
+		
+		<tr style="height: 100px; display: none; text-align: center;" id="dont1">
+			<td colspan="2">
+				<form action="">就业单位&nbsp;
+					<input type="text" name="working-place" class="text">
+				</form>
+			</td>
+		</tr>
+		
+		
+		
+	</table>
+	
+	
+</div>
+</body>
+</html>
